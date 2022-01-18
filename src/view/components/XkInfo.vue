@@ -54,7 +54,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-pinlun:before {
+.icon-gangbi:before {
   content: '\e61e';
 }
 </style>
