@@ -1,7 +1,7 @@
 <template>
   <div class="xk-footer">
     Powered by
-    <a href="https://github.com/kuole-o/bber-ispeak" target="_blank">{{ name }}</a> v{{
+    <a href="https://github.com/xue-hy/bber-ispeak" target="_blank">{{ name }}</a> v{{
       version
     }}
   </div>

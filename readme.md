@@ -10,15 +10,15 @@
 
 使用如下链接替换原来的js（加在上述timeago.js后）：
 ```js
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kuole-o/bber-ispeak@main/dist/ispeak-bber.min.js" charset="utf-8" ></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/xue-hy/bber-ispeak@main/dist/ispeak-bber.min.js" charset="utf-8" ></script>
 ```
 
 ### 修改点
 
-* 音乐解析需要正则从前往后查找URL里的音乐ID，然后拼接播放，在Safari中这个正则方法会报错(参考 https://qa.1r1g.com/sf/ask/3609817501/)，导致页面空白（一个解决思路是，在云函数bber里，就把音乐URL里的id匹配出来，云端替换成前端可以直接播放的meting.js所需格式，以后再搞，最近懒得折腾了）。这里的包去掉音乐解析功能：https://github.com/kuole-o/bber-ispeak/tree/main/dist  
-* 支持QQ音乐/网易云音乐歌曲分享，说说页面在线播放。这里的包，仍然支持音乐解析（Windows、Android正常）：https://github.com/kuole-o/bber-ispeak/tree/main/dist_music  
+* 音乐解析需要正则从前往后查找URL里的音乐ID，然后拼接播放，在Safari中这个正则方法会报错(参考 https://qa.1r1g.com/sf/ask/3609817501/)，导致页面空白（一个解决思路是，在云函数bber里，就把音乐URL里的id匹配出来，云端替换成前端可以直接播放的meting.js所需格式，以后再搞，最近懒得折腾了）。这里的包去掉音乐解析功能：https://github.com/xue-hy/bber-ispeak/tree/main/dist  
+* 支持QQ音乐/网易云音乐歌曲分享，说说页面在线播放。这里的包，仍然支持音乐解析（Windows、Android正常）：https://github.com/xue-hy/bber-ispeak/tree/main/dist_music  
 * “再翻翻”增加阴影模糊效果
-* “my bibi”调整为“闪念”
+* “my bibi”调整为“小记”
 * 图片布局调整
 * 增加wow动画支持（需要网站本身配置wow.js）
 * 修复原ispeak中“三周”到“四周”相对日期时，直接展示具体日期  
